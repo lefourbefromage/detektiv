@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detective</title>
+</head>
+<body>
+<div class="">
+    <form name="myForm" method="post">
+        Name:
+        <input value="JeanQuete" type="text" name="fname">
+        <input value="" type="text" name="fpassword">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script type="text/javascript">
+    document.querySelector("form").addEventListener("submit", validateForm);
+
+    function validateForm(event) {
+        event.preventDefault();
+        let name = document.forms["myForm"]["fname"].value;
+        let password = document.forms["myForm"]["fpassword"].value;
+
+        if (name != "JeanQuete") {
+            alert('Username invalid');
+        } else {
+            if (password != "azertyuiop") {
+                alert('password invalid');
+            } else {
+                window.location.href = "logged.html";
+            }
+        }
+    }
+</script>
+</body>
+</html>
