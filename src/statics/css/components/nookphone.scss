@@ -1,0 +1,72 @@
+$nookphone-background: $beige;
+$nookphoneHeaderHeight : 5rem;
+$nookphoneFooterHeight : 5rem;
+
+.main-nookphone {
+    background-image: url('../../img/pattern-leaves-white.jpg');
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 25rem;
+}
+
+.nookphone {
+    position: absolute;
+    left:50%;
+    top:50%;
+    border-radius: 10rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1),  0 15px 35px rgba(0,0,0,0.05);
+    background-color: $nookphone-background;
+    width: 40rem;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    &__content {
+        width: 100%;
+        padding-bottom: 175%;
+        position: relative;
+    }
+
+    &__header {
+        position:absolute;
+        width: 100%;
+        top:0;
+        left:0;
+        display:grid;
+        grid-template-columns: 2rem 1fr 2rem;
+        height: $nookphoneHeaderHeight;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__footer {
+        position:absolute;
+        bottom:0;
+        height: $nookphoneFooterHeight;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        left:0;
+        align-items: center;
+        background-color: $darkbrown;
+        
+        &__link {
+            text-align: center;
+
+            &--active {
+                color:red;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+    &__body {
+        width: 100%;
+        height: calc(100% - #{$nookphoneHeaderHeight} - #{$nookphoneFooterHeight});
+        position: absolute;
+        bottom:$nookphoneFooterHeight;
+        left:0;
+        overflow: auto;
+    }
+}

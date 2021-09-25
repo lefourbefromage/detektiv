@@ -1,0 +1,65 @@
+.instanook {
+    &__posts {
+        padding: 4rem;
+        display: grid;
+        grid-row-gap: 2rem;
+    }
+    
+    &__post {
+        display: grid;
+        grid-row-gap: 1rem;
+        padding: 1rem;
+        background: hsl(50, 53%, 97%);
+        border-radius: 3rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+        &__header {
+            display: grid;
+            grid-template-columns: 5rem 1fr;
+            grid-gap: 1rem;
+            align-items: center;
+        }
+        
+        &__avatar {
+            background-size: cover;
+            background-position: center;
+            border-radius: 2rem;
+            width: 100%;
+            padding-bottom: 100%;
+        }
+        
+        &__title {
+            display: grid;
+            align-items: center;
+        }
+        
+        &__username {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        &__postdate {
+            font-size: 1.4rem;
+            color: hsl(50, 54%, 32%);
+        }
+        
+        &__media {
+            width: 100%;
+            padding-bottom: 100%;
+            background-position: center;
+            background-size: cover;
+            border-radius: 3rem;
+        }
+        
+        &__text {
+            font-weight: bold;
+        }
+        
+        &__content {
+            display: grid;
+            grid-row-gap: 1rem;
+        }
+    }
+}
+
+

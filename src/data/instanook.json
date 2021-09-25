@@ -1,0 +1,26 @@
+[
+    {
+        "username": "JeanQuete",
+        "avatar": "https://images.unsplash.com/photo-1622023743422-090f8d788398?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "date": "01/01/21",
+        "hours": "19:51",
+        "text": "Trop bien le texte",
+        "media": "./static/img/posts/post01.jpg"
+    },
+    {
+        "username": "Alpha",
+        "avatar": "https://images.unsplash.com/photo-1628271516731-489cedc5c7d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "date": "02/01/21",
+        "hours": "19:51",
+        "text": "Super Photo",
+        "media": "https://images.unsplash.com/photo-1555025619-aebc067c3f68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "username": "Beta",
+        "avatar": "https://images.unsplash.com/photo-1560362540-6a021b055e09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80",
+        "date": "02/01/21",
+        "hours": "19:51",
+        "text": "Super Photo",
+        "media": "https://images.unsplash.com/photo-1544535400-f91a7b9c2047?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+    }
+]
