@@ -1,0 +1,65 @@
+.weather-app {
+    height: 100%;
+    display: grid;
+    grid-row-gap: 2rem;
+    grid-template-rows: auto 1fr;
+    align-items: flex-start;
+
+    &__current-day {
+        position: relative;
+        width: calc(100% + 4rem);
+        padding-bottom: 65%;
+        border-radius: 0 0 50% 50%;
+        margin: -2rem -2rem 0 -2rem;
+        background: url('https://pbs.twimg.com/media/EWuoItDX0AE2WIZ.jpg') no-repeat center;
+        background-size: cover;
+        color: white;
+
+        &__content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    }
+
+    &__weather {
+        font-weight: bold;
+        font-size: 10rem;
+      
+    }
+
+    &__week {
+        width: 100%;
+        max-height: 100%;
+        display: grid;
+        grid-row-gap: 1rem;
+        overflow: auto;
+    }
+
+    &__day {
+        background: white;
+        padding: 2rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.weather {
+    &__day {
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    &__details {
+        font-weight: bold;
+        font-size: 2rem;
+    
+        i {
+            margin-left: 1rem;
+        }
+    }
+    
+}
+

@@ -1,3 +1,11 @@
+@import "../vendors/fontawesome/scss/fontawesome.scss";
+@import "../vendors/fontawesome/scss/solid.scss";
+@import "../vendors/fontawesome/scss/light.scss";
+@import "../vendors/fontawesome/scss/duotone.scss";
+
+@import "../vendors/fontawesome/scss/regular.scss";
+@import "../vendors/fontawesome/scss/brands.scss";
+
 @import "./utils/colors.scss";
 @import "./utils/reset.scss";
 
@@ -6,3 +14,6 @@
 @import "./components/nookphone.scss";
 @import "./components/instanook.scss";
 @import "./components/nookapps.scss";
+@import "./components/nookphoneWeather.scss";
+@import "./components/reminder.scss";
+@import "./components/app.scss";

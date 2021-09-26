@@ -1,0 +1,51 @@
+.reminder {
+    &__list {
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        margin: 0;
+    }
+    
+    &__item {
+        background: white;
+        padding: 2rem;
+        border-radius: 2rem;
+        display: grid;
+        align-items: center;
+        grid-row-gap: 1rem;
+
+        &--blue {
+            color: #544141;
+            background: #c4efec;
+        }
+        
+        &--pink {
+            color: #544141;
+            background: #dfcfec;
+        }
+        
+        &--green {
+            color: #4c3f3f;
+            background: #dde6a0;
+        }
+        
+        &--orange {
+            color: #544141;
+            background: #ffd4c1;
+        }
+    }
+    
+    &__icon {
+        font-size: 3rem;
+    }
+    
+    &__text {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Zilla Slab', serif;
+    }
+}
+
+

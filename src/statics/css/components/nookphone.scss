@@ -1,6 +1,6 @@
 $nookphone-background: $beige;
-$nookphoneHeaderHeight : 5rem;
-$nookphoneFooterHeight : 5rem;
+$nookphoneHeaderHeight : 8.5rem;
+$nookphoneFooterHeight : 8.5rem;
 
 .main-nookphone {
     background-image: url('../../img/pattern-leaves-white.jpg');
@@ -33,10 +33,11 @@ $nookphoneFooterHeight : 5rem;
         top:0;
         left:0;
         display:grid;
-        grid-template-columns: 2rem 1fr 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
         height: $nookphoneHeaderHeight;
         align-items: center;
         justify-content: center;
+        color : #544141;
     }
 
     &__footer {
@@ -44,23 +45,36 @@ $nookphoneFooterHeight : 5rem;
         bottom:0;
         height: $nookphoneFooterHeight;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: center;
         width: 100%;
         left:0;
         align-items: center;
-        background-color: $darkbrown;
-        
+        background-color: hsl(50, 53%, 90%);
+
         &__link {
             text-align: center;
-            font-family: 'Zilla Slab', serif;
+            font-size: 4rem;
+            color: hsl(21, 15%, 23%);
+            font-weight: bold;
+            padding: 1rem;
+            background: hsl(50, 53%, 87%);
+            border-radius: 50%;
+            width: 5rem;
+            height: 5rem;
+            
+            i {
+                transition:all ease 250ms;
+            }
 
-            &--active {
-                color:red;
-                font-weight: bold;
+            &:focus, &:active {
+                i{
+                    transform:scale(0.95);
+                }
+        
             }
         }
     }
-
 
     &__body {
         width: 100%;
@@ -74,7 +88,23 @@ $nookphoneFooterHeight : 5rem;
             padding: 2rem;
             height:calc(100% - 4rem);
             overflow: auto;
-            
+
+        }
+    }
+
+    &__time {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Zilla Slab', serif;
+        text-align: center;
+    }
+    &__icons {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            font-size: 2rem;
         }
     }
 }
