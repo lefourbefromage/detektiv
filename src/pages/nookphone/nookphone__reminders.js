@@ -1,6 +1,5 @@
 import React from 'react';
 import NookPhone from './nookphone';
-import { NavLink} from "react-router-dom";
 
 const NookPhoneReminders = () => {
     return (
