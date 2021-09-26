@@ -1,6 +1,8 @@
 import React from 'react';
 import NookPhone from './nookphone';
 import PostData from '../../data/instanook.json';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const NookPhoneHome = () => {
     return (
@@ -21,13 +23,17 @@ const NookPhoneHome = () => {
                   <div class="instanook__post__text">
                     {postDetail.text}
                   </div>
-                  <div class="instanook__post__media" style={{ backgroundImage: `url(${postDetail.media})` }}></div>
+
+
+                  <div class="instanook__post__media">
+                  <LazyLoadImage 
+                  src={postDetail.media} effect="blur" />
+                  </div>
                 </div>
               </div>
             )
           })}
           </div>
-         
         </NookPhone>
     );
 };

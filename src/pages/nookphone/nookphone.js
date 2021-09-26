@@ -14,7 +14,10 @@ const NookPhone = (props) => {
                     </div>
 
                     <div class="nookphone__body">
-                        {props.children}
+                        <div class="nookphone__body__content">
+                            {props.children}
+                        </div>
+                        
                     </div>
 
                     <Navigation/>

@@ -52,6 +52,7 @@ $nookphoneFooterHeight : 5rem;
         
         &__link {
             text-align: center;
+            font-family: 'Zilla Slab', serif;
 
             &--active {
                 color:red;
@@ -67,6 +68,13 @@ $nookphoneFooterHeight : 5rem;
         position: absolute;
         bottom:$nookphoneFooterHeight;
         left:0;
-        overflow: auto;
+
+
+        &__content {
+            padding: 2rem;
+            height:calc(100% - 4rem);
+            overflow: auto;
+            
+        }
     }
 }
