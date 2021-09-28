@@ -1,0 +1,44 @@
+[
+  {
+    "username": "Véronique Sansous",
+    "avatar": "./static/img/villagers/Veronique.png",
+    "job": "Résident en liberté",
+    "text": "A découvert le corps de Jean Quete."
+  },
+  {
+    "username": "Liliane Dettencours (Money)",
+    "avatar": "./static/img/villagers/Liliane.png",
+    "job": "Bourgeoise à domicile",
+    "text": "A été aperçu proche de la scene du crime le soir du meurtre"
+  },
+  {
+    "username": "Corine Dion",
+    "avatar": "./static/img/villagers/Corine.png",
+    "job": "Diva aphone",
+    "text": "A rencontré Jean Quete les jours précédents"
+  },
+  {
+    "username": "Claude Money",
+    "avatar": "./static/img/villagers/Claude.png",
+    "job": "Banquier plein au as",
+    "text": "A rencontré Jean Quete les jours précédents"
+  },
+  {
+    "username": "Commandant Costaud",
+    "avatar": "./static/img/villagers/Costaud.png",
+    "job": "Pécheur accomplis",
+    "text": "A rencontré Jean Quete les jours précédents"
+  },
+  {
+    "username": "Cyril Cognac",
+    "avatar": "./static/img/villagers/Cyril.png",
+    "job": "Cuistot ",
+    "text": "A rencontré Jean Quete les jours précédents"
+  },
+  {
+    "username": "Agent Ribbs",
+    "avatar": "./static/img/villagers/Ribbs.png",
+    "job": "Policier incapable",
+    "text": "A rencontré Jean Quete les jours précédents"
+  }
+]
