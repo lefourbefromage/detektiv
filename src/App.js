@@ -14,13 +14,14 @@ function App() {
   return (
     <BrowserRouter>
         <Switch>
-            <Route path="/jadesktop" exact component={JQDesktop} />
+            <Route path="/jqdesktop" exact component={JQDesktop} />
             <Route path="/" exact component={NookPhoneHome} />
             <Route path="/reminders" exact component={NookPhoneReminders}/>
             <Route path="/suspects" exact component={NookPhoneSuspects}/>
             <Route path="/instanook" exact component={NookPhoneInstaNook}/>
             <Route path="/weather" exact component={NookPhoneWeather}/>
             <Route path="/messages" exact component={NookPhoneMessages}/>
+
         </Switch>
     </BrowserRouter>
   );

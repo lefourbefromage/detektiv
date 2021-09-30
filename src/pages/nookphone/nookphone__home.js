@@ -39,6 +39,11 @@ const NookPhoneHome = () => {
                     <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/Contacts.png" alt="Notes" />
                     <h2 className="nookphone__app__name">Suspects</h2>
                 </NavLink>
+
+
+                <NavLink exact to="/jqdesktop">
+                    desktop JeanQuete
+                </NavLink>
             </div>
          
         </NookPhone>
