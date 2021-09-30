@@ -29,7 +29,7 @@ function LoginForm({Login, error, username, help}) {
             <h1 className="login__title">{username}</h1>
             <form className="login__form" onSubmit={submitHandler}>
                 {(error !== "") ? (
-                    <div className="login__error">{ error }</div> 
+                    <div className="login__error animate__animated animate__headShake">{ error }</div> 
                 ) : "" }
                 <div className="login__group">
                     <input className="login__input" placeholder="Password" type="password" name="password" id="password" onChange={ e => setDetails({...details, password: e.target.value})} value={details.password}/>
@@ -42,9 +42,12 @@ function LoginForm({Login, error, username, help}) {
             <button className="login__reset" onClick={showHelp}>Mot de passe oublié ?</button>
 
             {(visible.isVisible == 'true') ? (
-                <div className="login__help">
+                <div className="login__help-wrapper">
+                    <div className="login__help animate__animated animate__bounceInUp">
                     Question secrète pour retrouver votre mot de passe:
                     <span>{help}</span>
+                    </div>
+                 
                 </div>
             ) : (
                 ""

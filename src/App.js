@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import JQDesktop from "./pages/jqdesktop/jqdesktop.js";
 import NookPhoneHome from "./pages/nookphone/nookphone__home";
 import NookPhoneReminders from "./pages/nookphone/nookphone__reminders";

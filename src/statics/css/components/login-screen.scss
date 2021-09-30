@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: center;
     background: black;
+    overflow: hidden;
 
     &:before {
         content:'';
@@ -18,7 +19,7 @@
         left:0;
         top:0;
         z-index: 1;
-        transition:all ease 500ms;
+        transition:all ease 1s;
     }
 
     &--jq {
@@ -80,7 +81,7 @@
         width: 5.7rem;
         border-radius: 50%;
         color: #3f645c;
-        background-color: #81c9b9;
+        background-color: white;
         font-size: 2rem;
         padding: 0;
         text-align: center;
@@ -100,6 +101,7 @@
         padding: 1.5rem;
         border-radius: 1rem;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        font-weight: bold;
     }
 
     &__input {
@@ -120,10 +122,13 @@
         display: grid;
         grid-row-gap: 1rem;
         font-size: 1.3rem;
-        position: absolute;
-        bottom: 2rem;
-        left:50%;
-        transform: translateX(-50%);
+
+        &-wrapper {
+            position: absolute;
+            bottom: 2rem;
+            left:50%;
+            transform: translateX(-50%);
+        }
         span {
             display: block;
             text-align: center;
@@ -134,6 +139,7 @@
     &__reset {
         background: transparent;
         border:none;
+        cursor: pointer;
 
     }
 }
