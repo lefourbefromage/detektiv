@@ -41,7 +41,7 @@ function LoginForm({Login, error, username, help}) {
 
             <button className="login__reset" onClick={showHelp}>Mot de passe oublié ?</button>
 
-            {(visible.isVisible == 'true') ? (
+            {(visible.isVisible === 'true') ? (
                 <div className="login__help-wrapper">
                     <div className="login__help animate__animated animate__bounceInUp">
                     Question secrète pour retrouver votre mot de passe:
