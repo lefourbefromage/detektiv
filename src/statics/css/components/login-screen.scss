@@ -1,0 +1,143 @@
+.session {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+
+    &:before {
+        content:'';
+        background-size: cover;
+        background-position: center;
+        filter: blur(20px);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left:0;
+        top:0;
+        z-index: 1;
+        transition:all ease 500ms;
+    }
+
+    &--jq {
+        &:before {
+            background:url(../../img/love-marie.jpeg) center;
+        }
+    }
+
+    &--logged {
+        &:before {
+            filter: blur(0px);
+
+        }
+    }
+}
+
+.login {
+    z-index: 2;
+    display: grid;
+    grid-row-gap: 1rem;
+
+    width: 40rem;
+    max-width: 100%;
+
+    &__user {
+        width: 15rem;
+        border:1px solid white;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        margin: 0;
+        font-family: 'Zilla Slab', serif;
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    &__form {
+        display: grid;
+        grid-row-gap: 1rem;
+    }
+
+    &__group {
+        display: grid;
+        grid-template-columns: 1fr 3rem;
+        grid-gap: 1rem;
+    }
+
+    &__submit {
+        border: none;
+        width: 5.7rem;
+        border-radius: 50%;
+        color: #3f645c;
+        background-color: #81c9b9;
+        font-size: 2rem;
+        padding: 0;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
+        i {
+            display: block;
+            pointer-events: none;
+        }
+    }
+
+    &__error {
+        text-align: center;
+        background: #f7a0a0;
+        color: #790000;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    &__input {
+        padding: 2rem;
+        border-radius: 3rem;
+        border:none;
+        font-size: 1.5rem;
+        outline: none;
+    }
+
+    &__help {
+        width: 38rem;
+        max-width: 100%;
+        padding: 2rem;
+        text-align: center;
+        background: white;
+        border-radius: 1rem;
+        display: grid;
+        grid-row-gap: 1rem;
+        font-size: 1.3rem;
+        position: absolute;
+        bottom: 2rem;
+        left:50%;
+        transform: translateX(-50%);
+        span {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+
+    &__reset {
+        background: transparent;
+        border:none;
+
+    }
+}
+
+.jqdesktop {
+    z-index: 2;
+}

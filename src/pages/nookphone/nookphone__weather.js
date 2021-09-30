@@ -4,52 +4,52 @@ import NookPhone from './nookphone';
 const NookPhoneWeather = () => {
     return (
         <NookPhone view="weather">
-          <div class="weather-app">
-            <div class="weather-app__current-day">
-              <div class="weather-app__current-day__content">
-                <div class="weather-app__location">
+          <div className="weather-app">
+            <div className="weather-app__current-day">
+              <div className="weather-app__current-day__content">
+                <div className="weather-app__location">
                   Grump-Île
                 </div>
-                <div class="weather-app__weather">
+                <div className="weather-app__weather">
                     12°
                 </div>              
               </div>
             </div>
 
-            <div class="weather-app__week">
-              <div class="weather-app__day">
-                  <div class="weather__day">Lundi</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+            <div className="weather-app__week">
+              <div className="weather-app__day">
+                  <div className="weather__day">Lundi</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
-              <div class="weather-app__day">
-                  <div class="weather__day">Mardi</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+              <div className="weather-app__day">
+                  <div className="weather__day">Mardi</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
-              <div class="weather-app__day">
-                  <div class="weather__day">Mercredi</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+              <div className="weather-app__day">
+                  <div className="weather__day">Mercredi</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
-              <div class="weather-app__day">
-                  <div class="weather__day">Jeudi</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+              <div className="weather-app__day">
+                  <div className="weather__day">Jeudi</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
-              <div class="weather-app__day">
-                  <div class="weather__day">Vendredi</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+              <div className="weather-app__day">
+                  <div className="weather__day">Vendredi</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
-              <div class="weather-app__day">
-                  <div class="weather__day">Samedi</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+              <div className="weather-app__day">
+                  <div className="weather__day">Samedi</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
-              <div class="weather-app__day">
-                  <div class="weather__day">Dimanche</div>
-                  <div class="weather__details">12°<i class="fad fa-cloud-showers-heavy"></i></div>
+              <div className="weather-app__day">
+                  <div className="weather__day">Dimanche</div>
+                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
         

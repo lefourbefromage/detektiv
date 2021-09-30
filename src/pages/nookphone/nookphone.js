@@ -5,23 +5,23 @@ import {NavLink} from "react-router-dom";
 const NookPhone = (props) => {
     return (
         <div className={'main-nookphone main-nookphone--' + props.view}>
-            <div class="nookphone">
-                <div class="nookphone__content">
-                    <div class="nookphone__header">
-                        <div class="nookphone__icons"><i class="fad fa-signal-alt-3"></i></div>
-                        <div class="nookphone__time" id="time"><Clock/></div>
-                        <div class="nookphone__icons"><i class="fad fa-battery-bolt"></i></div>
+            <div className="nookphone">
+                <div className="nookphone__content">
+                    <div className="nookphone__header">
+                        <div className="nookphone__icons"><i className="fad fa-signal-alt-3"></i></div>
+                        <div className="nookphone__time" id="time"><Clock/></div>
+                        <div className="nookphone__icons"><i className="fad fa-battery-bolt"></i></div>
                     </div>
 
-                    <div class="nookphone__body">
-                        <div class="nookphone__body__content">
+                    <div className="nookphone__body">
+                        <div className="nookphone__body__content">
                             {props.children}
                         </div>
                         
                     </div>
-                    <div class="nookphone__footer">            
-                        <NavLink exact to="/" class="nookphone__footer__link" activeClassName="nav-nookphone__footer__link  nav-nookphone__footer__link--active">
-                            <i class="fal fa-home"></i>
+                    <div className="nookphone__footer">            
+                        <NavLink exact to="/" className="nookphone__footer__link" activeClassName="nav-nookphone__footer__link  nav-nookphone__footer__link--active">
+                            <i className="fal fa-home"></i>
                         </NavLink>
                     </div>
                 </div>
