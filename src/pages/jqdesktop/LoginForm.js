@@ -23,7 +23,7 @@ function LoginForm({Login, error, username, help}) {
     return (
         <div className="login">
             <div className="login__user">
-                <img src="./static/img/villagers/Costaud.png"/>
+                <img src="./static/img/villagers/Costaud.png" alt={username}/>
             </div>
 
             <h1 className="login__title">{username}</h1>
