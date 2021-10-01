@@ -15,7 +15,7 @@ function App() {
   return (
     <BrowserRouter>
         <Switch>
-            <Route path="/jqdesktop" exact component={JQDesktop} />
+            <Route path="/detective" exact component={JQDesktop} />
             <Route path="/" exact component={NookPhoneHome} />
             <Route path="/reminders" exact component={NookPhoneReminders}/>
             <Route path="/suspects" exact component={NookPhoneSuspects}/>

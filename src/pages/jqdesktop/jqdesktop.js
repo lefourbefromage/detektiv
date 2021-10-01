@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import LoginForm from './LoginForm';
+import LoggedSession from './LoggedSession'
 
 
 function JQDesktop() {
     const adminUser = {
-        password:"woof42lara"
+        password:"qwe"
     }
 
     const help = "Mon Chien + Année de naissance + Prénom de ma femme"
@@ -25,15 +26,12 @@ function JQDesktop() {
 
     const Logout = () => {
         console.log("Logout");
-        setUser({password: ""});
+        setUser({name:"JeanQuete", password: ""});
     }
     return (
         <div className={`session session--jq ${(user.password !== "") ? "session--logged" : ""}`}>
             {(user.password !== "") ? (
-                <div className="jqdesktop">
-                    <h2>Welcome,  {user.name}</h2>
-                    <button onClick={Logout}>Logout</button>
-                </div>
+                <LoggedSession Logout={Logout} username={user.name}/>
             ): (
                 <LoginForm help={help} username={user.name} Login={Login} error={error}/>   
             )}

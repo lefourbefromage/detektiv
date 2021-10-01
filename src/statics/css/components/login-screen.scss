@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 .session {
     width: 100vw;
     height: 100vh;
@@ -23,112 +25,43 @@
     }
 
     &--jq {
+        font-family: 'DotGothic16', sans-serif;
+
         &:before {
-            background:url(../../img/love-marie.jpeg) center;
+            background:url(../../img/nook98.jpg) bottom right;
         }
     }
 
     &--logged {
         &:before {
             filter: blur(0px);
-
         }
     }
 }
 
+
 .login {
     z-index: 2;
+    background: #b9b9b9;
+    border: 3px solid white;
+    border-style: outset;
+    z-index: 2;
     display: grid;
-    grid-row-gap: 1rem;
-
-    width: 40rem;
+    width: 50rem;
     max-width: 100%;
-
-    &__user {
-        width: 15rem;
-        border:1px solid white;
-        border-radius: 50%;
-        overflow: hidden;
-        margin: 0 auto;
-
-        img {
-            display: block;
-            width: 100%;
-        }
-    }
-
-    &__title {
-        text-align: center;
-        margin: 0;
-        font-family: 'Zilla Slab', serif;
-        color: black;
-        letter-spacing: 1px;
-    }
-
-    &__form {
-        display: grid;
-        grid-row-gap: 1rem;
-    }
-
-    &__group {
-        display: grid;
-        grid-template-columns: 1fr 3rem;
-        grid-gap: 1rem;
-    }
-
-    &__submit {
-        border: none;
-        width: 5.7rem;
-        border-radius: 50%;
-        color: #3f645c;
-        background-color: white;
-        font-size: 2rem;
-        padding: 0;
-        text-align: center;
-        cursor: pointer;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-
-        i {
-            display: block;
-            pointer-events: none;
-        }
-    }
-
-    &__error {
-        text-align: center;
-        background: #f7a0a0;
-        color: #790000;
-        padding: 1.5rem;
-        border-radius: 1rem;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        font-weight: bold;
-    }
-
-    &__input {
-        padding: 2rem;
-        border-radius: 3rem;
-        border:none;
-        font-size: 1.5rem;
-        outline: none;
-    }
+    max-height: 100%;
+    overflow:auto;
 
     &__help {
-        width: 38rem;
-        max-width: 100%;
         padding: 2rem;
         text-align: center;
         background: white;
-        border-radius: 1rem;
+        border-width: 2px;
         display: grid;
-        grid-row-gap: 1rem;
+        grid-row-gap: .5rem;
         font-size: 1.3rem;
+        border-style: inset;
 
-        &-wrapper {
-            position: absolute;
-            bottom: 2rem;
-            left:50%;
-            transform: translateX(-50%);
-        }
         span {
             display: block;
             text-align: center;
@@ -136,14 +69,174 @@
         }
     }
 
-    &__reset {
-        background: transparent;
-        border:none;
-        cursor: pointer;
-
+    &__error {
+        text-align: center;
+        background: #f7a0a0;
+        color: #790000;
+        border:1px solid #790000;
+        padding: 1.5rem;
+        font-weight: bold;
     }
+
+
+    &__title {
+        margin: 0;
+        font-size: 1.5rem;
+        color: white;
+        text-align: left;
+        padding: .5rem;
+        background: linear-gradient(45deg, #1f3192, #2196f3);
+    }
+    
+    &__form {
+        display: grid;
+        grid-row-gap: 1rem;
+        padding: 2rem;
+    }    
+    
+    &__group {
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+        grid-gap: 1rem;
+        align-items: center;
+
+        @media screen and (max-width:768px) {
+            grid-template-columns: 1fr;
+            
+        }
+    }
+    
+    &__input {
+        padding: .5rem;
+        border-radius: .2rem;
+        font-size: 1.5rem;
+        outline: #213b9d;
+        font-family: inherit;
+        border-style: revert;
+    }
+    
+    &__submit {
+        background: #b9b9b9;
+        padding: 1rem;
+        border-style: outset;
+        border-color: #888888;
+        border-width: 2px;
+        font-family: inherit;
+        font-weight: bold;
+    }
+    
+    &__reset {
+        background: #b9b9b9;
+        padding: 1rem;
+        border-style: outset;
+        border-color: #888888;
+        border-width: 2px;
+        font-family: inherit;
+        font-weight: bold;
+    }   
 }
 
-.jqdesktop {
+.winnook {
     z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    &__content {
+        flex: 1;
+        width: 100%;
+        position: relative;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        background: #b9b9b9;
+        width: calc(100% - 8px);
+        border-style: outset;
+        border-color: white;
+        border-width: 2px;
+        padding: .2rem;
+
+        &__right {
+            display: flex;
+            border-style: outset;
+            border-color:  rgb(133, 133, 133);
+            border-width: 2px;
+            padding:2px 4px;
+        }
+
+        &__separator {
+            height: 100%;
+            width: 1px;
+            margin: 0 .5rem;
+            display: block;              
+            background: rgb(133, 133, 133);  
+        }
+    }
+
+    &__logout {
+        background: #b9b9b9;
+        padding: 2px;
+        border-style: outset;
+        border-width: 2px;
+        font-family: inherit;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    &__app {
+        position: absolute;
+        width: 80rem;
+        height: 60rem;
+        max-height: calc(100% - 10rem);
+        max-width: calc(100% - 20rem);
+        display: flex;
+        bottom: 5rem;
+        left: 10rem;
+        flex-direction: column;
+        background: #b9b9b9;
+        border: 3px solid white;
+        border-style: outset;
+    
+        &__title {
+            margin: 0;
+            font-size: 1.5rem;
+            color: white;
+            text-align: left;
+            padding: .5rem;
+            background: linear-gradient(45deg, #1f3192, #2196f3);
+        }
+        
+        &__content {
+            padding: 1rem;
+            overflow: auto;
+            margin-top: 3rem;
+            background: white;
+            border: 3px solid #d2d2d2;
+            border-style: inset;
+        
+        
+         img {
+            width: 100%;
+            display: block;
+            max-width: 50rem;
+        }
+        
+         h2 {font-weight: bold;}
+        }   
+    }
+
+    @media screen and (max-width:768px) {
+        &__app {
+            width: calc(100% - 4px);
+            height: calc(100% - 4px);
+            max-height: 100%;
+            max-width: 100%;
+            display: flex;
+            bottom: 0;
+            left: 0;
+        }
+    }
 }
