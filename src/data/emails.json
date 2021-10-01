@@ -1,0 +1,32 @@
+[
+    {
+        "subject": "On a un soucis",
+        "timeline": [
+            {
+                "expeditor": "Tom Nook",
+                "email": "tomnook@acnh.com",
+                "hour": "05/09/2021 à 23h",
+                "content": "Ceci est le text"
+            },
+
+            {
+                "expeditor": "Claude Money",
+                "email": "claudemoney@bells.com",
+                "hour": "05/09/2021 à 23h",
+                "content": "Ceci est la reponse"
+            }
+        ]
+    },
+
+    {
+        "subject": "Déclaration de vos revenus 2021",
+        "timeline": [
+            {
+                "expeditor": "Mme Marie",
+                "email": "marie@acnh.com",
+                "hour": "05/09/2021 à 13:26",
+                "content": "Bonjour Claude, nous aurions besoin de la déclaration..."
+            }
+        ]
+    }
+  ]

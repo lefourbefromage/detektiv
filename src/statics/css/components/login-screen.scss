@@ -24,6 +24,14 @@
         transition:all ease 1s;
     }
 
+    &--cm {
+        font-family: 'DotGothic16', sans-serif;
+
+        &:before {
+            background:url(../../img/love-bells.jpg) bottom right;
+        }
+    }
+
     &--jq {
         font-family: 'DotGothic16', sans-serif;
 
@@ -188,13 +196,7 @@
 
     &__app {
         position: absolute;
-        width: 80rem;
-        height: 60rem;
-        max-height: calc(100% - 10rem);
-        max-width: calc(100% - 20rem);
         display: flex;
-        bottom: 5rem;
-        left: 10rem;
         flex-direction: column;
         background: #b9b9b9;
         border: 3px solid white;
@@ -207,6 +209,10 @@
             text-align: left;
             padding: .5rem;
             background: linear-gradient(45deg, #1f3192, #2196f3);
+
+            i {
+                margin-right: 1rem;
+            }
         }
         
         &__content {
@@ -227,16 +233,42 @@
          h2 {font-weight: bold;}
         }   
     }
+}
+
+.blocknook {
+    width: 80rem;
+    height: 60rem;
+    max-height: calc(100% - 10rem);
+    max-width: calc(100% - 20rem);
+    bottom: 5rem;
+    left: 10rem;
 
     @media screen and (max-width:768px) {
-        &__app {
-            width: calc(100% - 4px);
-            height: calc(100% - 4px);
-            max-height: 100%;
-            max-width: 100%;
-            display: flex;
-            bottom: 0;
-            left: 0;
-        }
-    }
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        max-height: 100%;
+        max-width: 100%;
+        display: flex;
+        bottom: 0;
+        left: 0;
+    } 
+}
+
+.nookmail {
+    width: 80rem;
+    height: 60rem;
+    max-height: calc(100% - 10rem);
+    max-width: calc(100% - 20rem);
+    bottom: 5rem;
+    left: 10rem;
+
+    @media screen and (max-width:768px) {
+        width: calc(100% - 4px);
+        height: calc(100% - 4px);
+        max-height: 100%;
+        max-width: 100%;
+        display: flex;
+        bottom: 0;
+        left: 0;
+    } 
 }

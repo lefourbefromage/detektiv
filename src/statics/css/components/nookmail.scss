@@ -1,0 +1,103 @@
+.nookmail {
+    &__main {
+        display: grid;
+        grid-template-columns: 20rem 1fr;
+        grid-column-gap: 0;
+        background: #b9b9b9;
+        border: none;
+        padding: 1rem;
+        height: 100%;
+    }
+
+    &__sidebar {
+        padding: 1rem;
+        overflow: auto;
+        background: white;
+        border: 5px solid #cccccc;
+        border-style: inset;
+    }
+    
+    &__content {
+        padding: 1rem;
+        overflow: auto;
+        background: #b9b9b9;
+        border: 5px solid #cccccc;
+        border-style: inset;
+        position: relative;
+        display: grid;
+        grid-gap: 1rem;
+    
+        &__title {
+            background: #b9b9b9;
+            margin: -1rem -1rem 0 -1rem;
+            padding: 0rem 1rem;
+            position: sticky;
+            top: -1rem;
+            align-items: center;
+            display: flex;
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+    }
+    
+    
+    &__mail-list {
+        display: grid;
+        grid-row-gap: 1rem;
+    }
+    
+    &__mail-item {
+        display: grid;
+        border-bottom: 1px solid gray;
+        padding-bottom: 1rem;
+    
+        &__date {
+            font-size: 1.2rem;
+            color: #828181;
+        }
+        
+        &__title {
+            font-weight: bold;
+        }
+        
+        &__content {
+            font-size: 1.2rem;
+            color: #828181;
+        }
+    
+        &__expeditor {
+            font-weight: bold;
+        
+            i {
+                margin-right: 1rem;
+            }
+            
+        }
+    }
+    
+    &__mail-content {
+        background: white;
+        padding: 1rem;
+        border: 3px solid #cccccc;
+        border-style: inset;
+        display: grid;
+    
+        &__expeditor {
+            font-weight: bold;
+        }
+        
+        &__date {
+            color: gray;
+        }
+        
+        &__content {
+            height: 100%;
+            min-height: 10rem;
+            margin-top: 1rem;
+            border-top: 1px solid gray;
+            padding-top: 1rem;
+        }
+    }
+}
+
+

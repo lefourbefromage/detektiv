@@ -40,7 +40,6 @@ const NookPhoneHome = () => {
                     <h2 className="nookphone__app__name">Suspects</h2>
                 </NavLink>
             </div>
-         
         </NookPhone>
     );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import "animate.css";
-import JQDesktop from "./pages/jqdesktop/jqdesktop.js";
+import JQDesktop from "./pages/desktop/jqdesktop";
+import CMDesktop from "./pages/desktop/cmdesktop";
 import NookPhoneHome from "./pages/nookphone/nookphone__home";
 import NookPhoneReminders from "./pages/nookphone/nookphone__reminders";
 import NookPhoneSuspects from "./pages/nookphone/nookphone__suspects";
@@ -15,6 +16,7 @@ function App() {
   return (
     <BrowserRouter>
         <Switch>
+            <Route path="/money" exact component={CMDesktop} />
             <Route path="/detective" exact component={JQDesktop} />
             <Route path="/" exact component={NookPhoneHome} />
             <Route path="/reminders" exact component={NookPhoneReminders}/>
