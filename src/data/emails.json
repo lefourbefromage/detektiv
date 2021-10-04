@@ -5,7 +5,7 @@
             {
                 "expeditor": "Tom Nook",
                 "email": "tomnook@acnh.com",
-                "hour": "05/09/2021 à 23h",
+                "hour": "05/09/2021 à 22h",
                 "content": "Ceci est le text"
             },
 
@@ -25,7 +25,14 @@
                 "expeditor": "Mme Marie",
                 "email": "marie@acnh.com",
                 "hour": "05/09/2021 à 13:26",
-                "content": "Bonjour Claude, nous aurions besoin de la déclaration..."
+                "content": "Bonjour Claude, nous aurions besoin de la déclaration des revenus pour l'année 2021 d'ici ce soir afin de pouvoir générer les nouveaux impots. Amicalement Marie..."
+            },
+
+            {
+                "expeditor": "Claude Money",
+                "email": "claudemoney@bells.com",
+                "hour": "05/09/2021 à 13:48",
+                "content": "Aucun soucis je m'en occupe dans la journée !"
             }
         ]
     }
