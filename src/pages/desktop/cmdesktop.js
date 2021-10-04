@@ -7,7 +7,7 @@ function CMDesktop() {
         password:"argent"
     }
 
-    const help = "ARGENT"
+    const help = "Rouge Vert Bleu"
     const [user, setUser] = useState({password: "", name:"ClaudeMoney"});
     const [error, setError] = useState("");
     
