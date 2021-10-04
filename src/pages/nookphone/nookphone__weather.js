@@ -24,12 +24,12 @@ const NookPhoneWeather = () => {
 
               <div className="weather-app__day">
                   <div className="weather__day">Mardi</div>
-                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
+                  <div className="weather__details">15°<i className="fad fa-clouds"></i></div>
               </div>
 
               <div className="weather-app__day">
                   <div className="weather__day">Mercredi</div>
-                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
+                  <div className="weather__details">13°<i className="fad fa-cloud-rain"></i></div>
               </div>
 
               <div className="weather-app__day">
@@ -39,17 +39,17 @@ const NookPhoneWeather = () => {
 
               <div className="weather-app__day">
                   <div className="weather__day">Vendredi</div>
-                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
+                  <div className="weather__details">10°<i className="fad fa-cloud-showers-heavy"></i></div>
               </div>
 
               <div className="weather-app__day">
                   <div className="weather__day">Samedi</div>
-                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
+                  <div className="weather__details">17°<i className="fad fa-clouds-sun"></i></div>
               </div>
 
               <div className="weather-app__day">
                   <div className="weather__day">Dimanche</div>
-                  <div className="weather__details">12°<i className="fad fa-cloud-showers-heavy"></i></div>
+                  <div className="weather__details">00°<i className="fad fa-cloud-snow"></i></div>
               </div>
 
         

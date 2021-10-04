@@ -18,12 +18,6 @@ const NookPhoneHome = () => {
                     <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/instanook.jpg" alt="Instanook" />
                     <h2 className="nookphone__app__name">Instanook</h2>
                 </NavLink>
-
-                <NavLink className="nookphone__app nookphone__app-message" exact to="/messages">
-                    <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/Messages.png" alt="Messages" />
-                    <h2 className="nookphone__app__name">Messages</h2>
-                </NavLink>
-
                 
                 <NavLink className="nookphone__app nookphone__app-message" exact to="/weather">
                     <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/Weather.png" alt="Instanook" />

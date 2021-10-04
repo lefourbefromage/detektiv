@@ -17,6 +17,7 @@ const NookPhoneInstanook = () => {
                       <h2 className="suspects__username">{userDetail.username}</h2>
                       <p className="suspects__job">{userDetail.job}</p>
                       <p className="suspects__context">{userDetail.text}</p>   
+                      <p className="suspects__context">Interets: <strong>{userDetail.interest}</strong></p>   
                   </div>
               </div>
             )
