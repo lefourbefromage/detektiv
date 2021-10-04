@@ -1,7 +1,7 @@
 .nookmail {
     &__main {
         display: grid;
-        grid-template-columns: 20rem 1fr;
+        grid-template-columns: 25rem 1fr;
         grid-column-gap: 0;
         background: #b9b9b9;
         border: none;
@@ -56,6 +56,11 @@
         border-bottom: 1px solid gray;
         padding-bottom: 1rem;
         cursor: pointer;
+
+
+        &:hover {
+            background-color: rgb(241, 241, 241);
+        }
     
         &__date {
             font-size: 1.2rem;

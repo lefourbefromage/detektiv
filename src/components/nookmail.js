@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import mailData from '../data/emails.json';
 
-
-
-
 function NookMail() {
     const [emails, setEmails] = useState({
         content: (
@@ -34,6 +31,7 @@ function NookMail() {
                                             )}
                                         )}
                                     </div>
+
                                 )
                             } else {
                                 return("");
@@ -61,10 +59,7 @@ function NookMail() {
                             </button>
                         ))}                 
                     </div>
-                </div>
-
-                
-    
+                </div>   
         
                 {emails.content}
             </div>
