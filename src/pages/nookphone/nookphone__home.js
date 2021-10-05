@@ -19,7 +19,7 @@ const NookPhoneHome = () => {
                     <h2 className="nookphone__app__name">Instanook</h2>
                 </NavLink>
                 
-                <NavLink className="nookphone__app nookphone__app-message" exact to="/weather">
+                <NavLink className="nookphone__app nookphone__app--weather" exact to="/weather">
                     <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/Weather.png" alt="Instanook" />
                     <h2 className="nookphone__app__name">Météo</h2>
                 </NavLink>
@@ -29,7 +29,7 @@ const NookPhoneHome = () => {
                     <h2 className="nookphone__app__name">Reminders</h2>
                 </NavLink>
 
-                <NavLink className="nookphone__app nookphone__app--notes" exact to="/suspects">
+                <NavLink className="nookphone__app nookphone__app--suspects" exact to="/suspects">
                     <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/Contacts.png" alt="Notes" />
                     <h2 className="nookphone__app__name">Suspects</h2>
                 </NavLink>

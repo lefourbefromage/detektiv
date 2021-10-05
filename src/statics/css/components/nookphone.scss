@@ -1,6 +1,4 @@
 $nookphone-background: $beige;
-$nookphoneHeaderHeight : 8.5rem;
-$nookphoneFooterHeight : 8.5rem;
 
 .main-nookphone {
     background-image: url('../../img/pattern-leaves-white.jpg');
@@ -8,9 +6,17 @@ $nookphoneFooterHeight : 8.5rem;
     width: 100vw;
     height: 100vh;
     background-size: 25rem;
+
+    @media screen and (max-width:768px) {
+        background-size: contain;
+    }
 }
 
 .nookphone {
+  
+    --nookphoneHeaderHeight : 8.5rem;
+    --nookphoneFooterHeight : 8.5rem;
+
     position: absolute;
     left:50%;
     top:50%;
@@ -34,16 +40,18 @@ $nookphoneFooterHeight : 8.5rem;
         left:0;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        height: $nookphoneHeaderHeight;
+        height: var(--nookphoneHeaderHeight);
         align-items: center;
         justify-content: center;
         color : #544141;
+        z-index: 2;
+        background: #f7f4e5;
     }
 
     &__footer {
         position:absolute;
         bottom:0;
-        height: $nookphoneFooterHeight;
+        height: var(--nookphoneFooterHeight);
         display: grid;
         align-items: center;
         justify-content: center;
@@ -77,18 +85,17 @@ $nookphoneFooterHeight : 8.5rem;
     }
 
     &__body {
+        z-index: 1;
         width: 100%;
-        height: calc(100% - #{$nookphoneHeaderHeight} - #{$nookphoneFooterHeight});
+        height: calc(100% - var(--nookphoneFooterHeight) - var(--nookphoneHeaderHeight));
         position: absolute;
-        bottom:$nookphoneFooterHeight;
+        bottom: var(--nookphoneFooterHeight);
         left:0;
-
 
         &__content {
             padding: 2rem;
             height:calc(100% - 4rem);
             overflow: auto;
-
         }
     }
 
@@ -98,6 +105,7 @@ $nookphoneFooterHeight : 8.5rem;
         font-family: 'Zilla Slab', serif;
         text-align: center;
     }
+    
     &__icons {
         display: grid;
         align-items: center;
@@ -106,5 +114,37 @@ $nookphoneFooterHeight : 8.5rem;
         i {
             font-size: 2rem;
         }
+    }
+
+    @media screen and (max-width:768px) {
+        width: 100%;
+        border-radius: 0;
+        height: 100%;
+        --nookphoneHeaderHeight : 5rem;
+
+        .nookphone__app--instanook {
+            grid-row-start: 3;
+        }
+        
+        .nookphone__app-message {
+            grid-row-start: 1;
+            grid-column-start: 2;
+        }
+        
+        .nookphone__app--notes {
+            grid-column-start: 2;
+            grid-row-start: 3;
+        }
+        
+        .nookphone__app--suspects {
+            grid-row-start: 3;
+            grid-column-start: 3;
+        }
+        
+
+        &__content {
+            padding: 0;
+            height: 100%;
+        }    
     }
 }

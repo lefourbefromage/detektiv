@@ -9,17 +9,17 @@ const NookPhoneReminders = () => {
             <ul className="reminder__list"> 
               <li className="reminder__item reminder__item--blue">
                 <div className="reminder__icon"><i className="fad fa-diagnoses"></i></div>
-                <div className="reminder__text">Inspecter la scène de crime</div>
-              </li>
-
-              <li className="reminder__item reminder__item--orange">
-                <div className="reminder__icon"><i className="fad fa-comments-alt"></i></div>
-                <div className="reminder__text">Rendre visite à tous les suspects</div>
+                <div className="reminder__text">Ecouter le rapport sur le crime</div>
               </li>
 
               <li className="reminder__item reminder__item--pink">
                 <div className="reminder__icon"><i className="fad fa-search"></i></div>
                 <div className="reminder__text">Inspecter l'appartement de Jean Quete</div>
+              </li>
+
+              <li className="reminder__item reminder__item--orange">
+                <div className="reminder__icon"><i className="fad fa-comments-alt"></i></div>
+                <div className="reminder__text">Rendre visite à tous les suspects</div>
               </li>
 
               

@@ -14,7 +14,18 @@ function BlockNook() {
 
                 <LazyLoadImage  className="winnook__app__content__img winnook__app__content__img--rotate-left" alt="photo journal 01" src="./static/img/blocknook/block-nook01.jpg" effect="blur" />
 
+                <p>
+                    Apparement le dossier était géré par l'agent Ribbs. Mais après des semaines sans résultats, Tom Nook a préféré se séparer de lui pour me laisser gérer le dossier. <br/>
+                    Je vais aller le rencontrer en premier pour récupérer le dossier qu'il a pu déjà monter.
+                </p>
+
+                <p>
+                    Bon j'ai rencontré ce fameux Ribbs. Pas très aimable le bonhomme mais bon c'est logique vu que je prend son poste.
+                    Il n'a pas voulu me donner son enquête donc bon je vais devoir recommencer de 0... J'espère ne pas le recroiser par ce que ça m'a vraiment mis mal a l'aise cette situation !
+                </p>
+
                 <h2>02 Septembre 2021</h2>
+                
                 <p>
                     Journée enfin terminé. Je me suis perdu plus d'une fois dans cette ville de m***e.<br/>
                     - Rendez-vous avec le pécheur : Capitaine Costaud ✅<br/>
@@ -22,7 +33,6 @@ function BlockNook() {
                 </p>
 
                 <LazyLoadImage  className="winnook__app__content__img winnook__app__content__img--rotate-right" alt="photo journal 02" src="./static/img/blocknook/block-nook02.jpeg" effect="blur" />
-
 
                 <h2>03 Septembre 2021</h2>
                 <p>
@@ -46,9 +56,9 @@ function BlockNook() {
                     - Rendez-vous avec la chanteuse : Corinne Dion ✅<br/>
                     - Raison des difficultés de payments: Achat de nombreux accessoires pour le spectacle. (Des paires de chaussures...)
                 </p>
-                <p>
-                    Corinne est très charmante et me rappel un peu Lara 💕. Elle ma convié a venir voir son spectacle de cabaret.
-                </p>
+                <p> 
+                    Corinne est très charmante et me rappel un peu Lara 💕 dans sa jeunesse. Elle ma convié a venir voir son spectacle de cabaret mais je serais surement au lit quand ça commencera...💤💤💤 
+                </p>    
 
                 <LazyLoadImage  className="winnook__app__content__img winnook__app__content__img--rotate-right" alt="photo journal 04" src="./static/img/blocknook/block-nook04.jpeg" effect="blur" />
 
