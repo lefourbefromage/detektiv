@@ -223,14 +223,23 @@
             border: 3px solid #d2d2d2;
             border-style: inset;
         
-        
-         img {
+        &__img {
             width: 100%;
             display: block;
             max-width: 50rem;
+            border:5px solid rgb(189, 190, 184);
+            border-radius: 5px;
+
+            &--rotate-left {
+                transform:rotate(4deg);
+                margin: 3rem 0;
+            }
+
+            &--rotate-right {
+                transform:rotate(-3deg);
+                margin: 3rem 0;
+            }
         }
-        
-         h2 {font-weight: bold;}
         }   
     }
 }
@@ -240,9 +249,29 @@
     height: 60rem;
     max-height: calc(100% - 10rem);
     max-width: calc(100% - 20rem);
-    bottom: 5rem;
-    left: 10rem;
+    bottom: 10rem;
+    right: 20rem;
 
+    h2 {
+        font-weight: bold;
+        border-top: 1px solid rgb(216, 216, 216);
+        padding-top: 2rem;
+        margin-top: 2rem;
+        text-decoration: underline;
+
+        &:first-child{
+            border-top: 0;
+            padding-top: 0;
+            margin-top: 0;
+        }
+    }
+
+    .winnook__app {
+        &__content {
+            padding: 2rem;
+            text-align: center;
+        }
+    }
     @media screen and (max-width:768px) {
         width: calc(100% - 4px);
         height: calc(100% - 4px);
