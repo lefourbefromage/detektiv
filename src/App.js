@@ -7,7 +7,8 @@ import NookPhoneReminders from "./pages/nookphone/nookphone__reminders";
 import NookPhoneSuspects from "./pages/nookphone/nookphone__suspects";
 import NookPhoneInstaNook from "./pages/nookphone/nookphone__instanook";
 import NookPhoneWeather from "./pages/nookphone/nookphone__weather";
-import NookPhoneMessages from "./pages/nookphone/nookphone__messages";
+import NookPhoneMaps from "./pages/nookphone/nookphone__maps";
+
 
 
 import {BrowserRouter, Switch,Route} from "react-router-dom";
@@ -19,12 +20,11 @@ function App() {
             <Route path="/money" exact component={CMDesktop} />
             <Route path="/detective" exact component={JQDesktop} />
             <Route path="/" exact component={NookPhoneHome} />
+            <Route path="/maps" exact component={NookPhoneMaps} />
             <Route path="/reminders" exact component={NookPhoneReminders}/>
             <Route path="/suspects" exact component={NookPhoneSuspects}/>
             <Route path="/instanook" exact component={NookPhoneInstaNook}/>
             <Route path="/weather" exact component={NookPhoneWeather}/>
-            <Route path="/messages" exact component={NookPhoneMessages}/>
-
         </Switch>
     </BrowserRouter>
   );
