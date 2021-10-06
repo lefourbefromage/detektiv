@@ -5,7 +5,7 @@ const NookPhoneReminders = () => {
     return (
         <NookPhone view="reminder">
           <div className="app reminder" >
-            <h1 className="app__title">Reminder</h1>
+            <h1 className="app__title">To do</h1>
             <ul className="reminder__list"> 
               <li className="reminder__item reminder__item--blue">
                 <div className="reminder__icon"><i className="fad fa-diagnoses"></i></div>
@@ -14,7 +14,7 @@ const NookPhoneReminders = () => {
 
               <li className="reminder__item reminder__item--pink">
                 <div className="reminder__icon"><i className="fad fa-search"></i></div>
-                <div className="reminder__text">Inspecter l'appartement de Jean Quete</div>
+                <div className="reminder__text">Inspecter la chambre de Jean Quete</div>
               </li>
 
               <li className="reminder__item reminder__item--orange">
