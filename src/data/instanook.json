@@ -26,6 +26,7 @@
         "media": "./static/img/posts/concert-cancel.jpg"
     },
 
+
     {
         "username": "Money 💸",
         "avatar": "./static/img/villagers/Claude.png",
@@ -36,21 +37,31 @@
     },
 
     {
+        "username": "Cyril 🍕",
+        "avatar": "./static/img/villagers/Cyril.png",
+        "date": "06/09/21",
+        "hours": "00:10",
+        "text": "Encore des clients satisfait ce soir ! Ils ont tellement apprécié que j'ai du fermer le resto à 23h30 !",
+        "media": "./static/img/posts/bartaba.jpeg"
+    },
+
+    {
+        "username": "Nana 🐐",
+        "avatar": "./static/img/villagers/nana.jpeg",
+        "date": "05/09/21",
+        "hours": "23:45",
+        "text": "Follow moi pour plus de blagues",
+        "media": "./static/img/posts/fail.jpeg"
+    },
+
+
+    {
         "username": "Doc 📚",
         "avatar": "./static/img/villagers/Doc.jpeg",
         "date": "05/09/21",
         "hours": "23:29",
         "text": "Merci @CorineDion pour ce super concert !",
         "media": "./static/img/posts/concert.jpg"
-    },
-
-    {
-        "username": "Cyril 🍕",
-        "avatar": "./static/img/villagers/Cyril.png",
-        "date": "02/09/21",
-        "hours": "10:29",
-        "text": "J'attend avec impatience les beaux Cèpes de Moon et Fromage!",
-        "media": "./static/img/posts/froon-garden.jpeg"
     },
 
     {
@@ -99,6 +110,16 @@
     },
 
     {
+        "username": "Cyril 🍕",
+        "avatar": "./static/img/villagers/Cyril.png",
+        "date": "02/09/21",
+        "hours": "10:29",
+        "text": "J'attend avec impatience les beaux Cèpes de Moon et Fromage!",
+        "media": "./static/img/posts/froon-garden.jpeg"
+    },
+
+
+    {
         "username": "Wolfgang 🐺",
         "avatar": "./static/img/villagers/wolfgang.jpeg",
         "date": "03/09/21",
@@ -108,18 +129,9 @@
     },
 
     {
-        "username": "Nana 🐐",
-        "avatar": "./static/img/villagers/nana.jpeg",
-        "date": "02/09/21",
-        "hours": "06:32",
-        "text": "Follow moi pour plus de blagues",
-        "media": "./static/img/posts/fail.jpeg"
-    },
-
-    {
         "username": "Brutus 🦴",
         "avatar": "./static/img/villagers/brutus.jpeg",
-        "date": "01/09/21",
+        "date": "02/09/21",
         "hours": "13:40",
         "text": "Mon copain Tom'bo ! 🤪 C'est vraiment le plus drôle 🤪🤣",
         "media": "./static/img/posts/horny-tombo.jpeg"
