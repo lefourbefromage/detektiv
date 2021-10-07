@@ -26,7 +26,6 @@
         "media": "./static/img/posts/concert-cancel.jpg"
     },
 
-
     {
         "username": "Money 💸",
         "avatar": "./static/img/villagers/Claude.png",
@@ -54,7 +53,6 @@
         "media": "./static/img/posts/fail.jpeg"
     },
 
-
     {
         "username": "Doc 📚",
         "avatar": "./static/img/villagers/Doc.jpeg",
@@ -65,12 +63,21 @@
     },
 
     {
-        "username": "Brutus 🦴",
+        "username": "vivianne 🎺",
         "avatar": "./static/img/villagers/brutus.jpeg",
         "date": "05/09/21",
-        "hours": "20:01",
-        "text": "NOOK, EXPLOSION ! Ce soir Manifestation anti Nook devant le musée!",
+        "hours": "22:18",
+        "text": "En place pour aller voir le concert de Corinne Dion. J'ai tellement hate...",
         "media": "./static/img/posts/nookdemission.jpeg"
+    },
+
+    {
+        "username": "Magguy 🫖",
+        "avatar": "./static/img/villagers/magguy.jpeg",
+        "date": "05/09/21",
+        "hours": "22:13",
+        "text": "Les rues sont bondées ce soir !",
+        "media": "./static/img/posts/streets.jpeg"
     },
 
     {
@@ -83,12 +90,12 @@
     },
 
     {
-        "username": "Magguy 🫖",
-        "avatar": "./static/img/villagers/magguy.jpeg",
+        "username": "Brutus 🦴",
+        "avatar": "./static/img/villagers/brutus.jpeg",
         "date": "04/09/21",
-        "hours": "20:00",
-        "text": "Les rues sont bondées ce soir !",
-        "media": "./static/img/posts/streets.jpeg"
+        "hours": "20:01",
+        "text": "NOOK, EXPLOSION ! Manifestation anti Nook devant le musée!",
+        "media": "./static/img/posts/nookdemission.jpeg"
     },
 
     {

@@ -1,4 +1,5 @@
 import React from "react";
+import {BrowserRouter, Switch,Route} from "react-router-dom";
 import "animate.css";
 import JQDesktop from "./pages/desktop/jqdesktop";
 import CMDesktop from "./pages/desktop/cmdesktop";
@@ -12,8 +13,6 @@ import NookPhoneStreetVideo from "./pages/nookphone/nookphone__street";
 
 
 
-import {BrowserRouter, Switch,Route} from "react-router-dom";
-
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +22,6 @@ function App() {
             <Route path="/" exact component={NookPhoneHome} />
             <Route path="/maps" exact component={NookPhoneMaps} />
             <Route path="/archive/video01" exact component={NookPhoneStreetVideo} />
-
             <Route path="/reminders" exact component={NookPhoneReminders}/>
             <Route path="/suspects" exact component={NookPhoneSuspects}/>
             <Route path="/instanook" exact component={NookPhoneInstaNook}/>
