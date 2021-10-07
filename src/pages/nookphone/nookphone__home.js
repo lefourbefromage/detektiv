@@ -31,7 +31,7 @@ const NookPhoneHome = () => {
 
                 <NavLink className="nookphone__app nookphone__app--notes" exact to="/reminders">
                     <LazyLoadImage className="nookphone__app__icon" src="./static/img/icons/reminders.png" alt="Notes" />
-                    <h2 className="nookphone__app__name">Reminders</h2>
+                    <h2 className="nookphone__app__name">To do</h2>
                 </NavLink>
 
                 <NavLink className="nookphone__app nookphone__app--suspects" exact to="/suspects">
