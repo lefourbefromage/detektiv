@@ -43,13 +43,10 @@
     "username": "Liliane Dettencours (Money)",
     "avatar": "./static/img/villagers/Liliane.png",
     "job": "Bourgeoise à domicile",
-    "text": "A été aperçu proche de la scene du crime le soir du meurtre",
+    "text": "A discuté avec Jean Quete",
     "interest": "Mode - Argent"
   },
-
-
-
-
+  
   {
     "username": "Claude Money",
     "avatar": "./static/img/villagers/Claude.png",
