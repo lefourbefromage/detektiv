@@ -44,7 +44,7 @@ function LoginForm({Login, error, username, help}) {
 
                 <div className="login__group">
                     <label htmlFor="password">Password</label>
-                    <input className="login__input" placeholder="Password" type="password" name="password" id="password" onChange={ e => setDetails({...details, password: e.target.value})} value={details.password}/>
+                    <input className="login__input" placeholder="Password" type="text" name="password" id="password" onChange={ e => setDetails({...details, password: e.target.value})} value={details.password}/>
                 </div>
                 <button type='submit' className="login__submit" value="login">
                     Valider

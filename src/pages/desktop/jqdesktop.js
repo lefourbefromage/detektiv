@@ -5,10 +5,10 @@ import LoggedSession from './LoggedSession'
 
 function JQDesktop() {
     const adminUser = {
-        password:"qwe"
+        password:"roger1964lara"
     }
 
-    const help = "Mon Chien + Année de naissance + Prénom de ma femme"
+    const help = "Mon Chien + Mon année de naissance + Prénom de ma femme"
     const [user, setUser] = useState({password: "", name:"JeanQuete"});
     const [error, setError] = useState("");
     
